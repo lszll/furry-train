@@ -1,0 +1,13 @@
+<!-- wxml 是编写小程序骨架的文件-->
+<!--<div>-->
+<!--在小程序中只有被text包围的文字才能在手机中被长按选中 -->
+<!-- 在iphone6下面如果想用px = 2* rpx，移动端不推荐用px -->
+<!--0-750像素 iphone6 -->
+<!--text支持转义字符'\'，且text可以支持嵌套 -->
+<view class="container">
+	<image class="user-ragna" src="/images/butterflyCat.png"></image>
+	<text class="user-name"><text style="color:grey">hello,</text>ragna</text>
+	<view class="moto-container" bindtap="onTap">
+		<text class="moto">你好</text>	
+	</view>
+</view>
